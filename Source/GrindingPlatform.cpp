@@ -34,7 +34,7 @@ void AGrindingPlatform::OnConstruction(const FTransform& Transform)
 		});
 }
 
-#ifdef WITH_EDITOR
+#if WITH_EDITOR
 
 void AGrindingPlatform::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangeEvent)
 {
